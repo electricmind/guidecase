@@ -1,1 +1,1 @@
-object Build extends android.AutoBuild
+//object Build extends android.AutoBuild

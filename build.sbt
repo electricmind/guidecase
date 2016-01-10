@@ -2,6 +2,9 @@ sbtVersion := "0.13.9"
 
 name := "guidecase"
 
+import android.Keys._
+android.Plugin.androidBuild
+
 buildToolsVersion := Some("19.1")
 
 import android.Keys._
