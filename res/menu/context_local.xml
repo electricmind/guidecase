@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/delete"
+          android:icon="@drawable/delete"
+          android:showAsAction="ifRoom"
+          android:title="Remove It from off-line mode" />
+
+    <item android:id="@+id/lookat"
+          android:icon="@drawable/lookat"
+          android:title="Look at this fun!"
+    />
+
+</menu>
+
+

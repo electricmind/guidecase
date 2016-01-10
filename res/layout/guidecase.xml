@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    
+    >
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:onClick="doEnter"
+        android:gravity="center"
+        android:lines="4"
+        android:padding="30sp"
+        android:textSize="60sp"
+        android:rotation="15"
+        android:rotationX="5"
+        android:rotationY="5"
+        android:text="GuideCase is a program that do nothing except to allow downloading and exposing naughty pictures. Just touch and enjoy!"
+        android:shadowColor="#454545"
+        android:background="@drawable/wallpaper"
+        android:textColor="#446fbd"
+        />
+        
+</LinearLayout>
+

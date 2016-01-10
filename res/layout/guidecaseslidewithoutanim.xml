@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:id="@+id/prevbutton"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:text="Prev"
+        android:onClick="doPrev"
+        />
+
+         
+                 
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:lines="1"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            />
+            
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/image"
+            android:layout_weight="1.0"
+            
+            
+            /> <!-- android:onClick="onClick" android:clickable="true" -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:lines="3"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:text="Next"
+        android:onClick="doNext"
+        />
+
+</LinearLayout>
+
