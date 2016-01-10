@@ -296,8 +296,8 @@ class GuideCaseService extends IntentService("GuideCaseService") {
 
         st.close()
         val (w, h) = (bitmap1.getWidth, bitmap1.getHeight) match {
-            case (w, h) if h > w => (90, (h * (90. / w)).toInt)
-            case (w, h)          => ((w * (90. / h)).toInt, 90)
+            case (w, h) if h > w => (90, (h * (90.0 / w)).toInt)
+            case (w, h)          => ((w * (90.0 / h)).toInt, 90)
         }
 
         val bitmap2 = Bitmap.createScaledBitmap(bitmap1, w, h, true)
