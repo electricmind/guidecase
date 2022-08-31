@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
- <dimen name="icon_size">85dp</dimen>
- <dimen name="icon_pad">2dp</dimen>
- <dimen name="icon_pad_thick">5dp</dimen>
- <dimen name="column_size">90dp</dimen>
-</resources>
